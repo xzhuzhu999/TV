@@ -1,9 +1,0 @@
-原文件需手动点下载
-https://github.com/xzhuzhu999/TV/blob/master/output/user_result.txt
-
-代理转换后在线文件
-
-https://ghp.ci/https://raw.githubusercontent.com/xzhuzhu999/TV/master/output/user_result.txt
-
-https://mirror.ghproxy.com/raw.githubusercontent.com/xzhuzhu999/tv/master/output/user_result.txt    //失效？
-
