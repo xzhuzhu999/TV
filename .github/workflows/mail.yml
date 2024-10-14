@@ -5,10 +5,10 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:
     branches:
-       - master
-       - dev
-       - gd
-       - gd-test
+      - master
+      - dev
+      - gd
+      - gd-test
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
@@ -117,12 +117,3 @@ jobs:
             git commit -m "Github Action Auto Updated"
             git push --force
           fi
-      - name: Push changed file
-        uses: ./
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:        
-          source_file: 'test01.md'
-          destination_repo: 'xzhuzhu999/xz'
-          user_email: 'xzhuzhu999@gmail.com'
-          user_name: 'xzhuzhu999'
